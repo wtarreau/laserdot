@@ -29,3 +29,4 @@ to program a different duty cycle in its EEPROM, like here, 0.2% duty cycle :
 $ avrdude -c buspirate -P /dev/ttyUSB0 -p attiny13 -U eeprom:w:0x02:m
 ```
 
+![The module connected to a laser module](photos/plugged.jpg)
